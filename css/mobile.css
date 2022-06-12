@@ -1,0 +1,96 @@
+@media only screen and (max-width: 600px) {
+  .navbar-brand img{
+        width: 100px;
+        height: 40px;
+    }
+    .header h3{
+        font-size: 0.6em;
+        letter-spacing: 5px;
+    }
+    .presentation .divtitre .titreInto {
+        color: #a76c4e;
+        font-size: 30px;
+    }
+    .presentation .divIntro p {
+        margin-bottom: 20px;
+        font-size: 12px;
+        line-height: 20px;
+        /* text-align: center; */
+        text-align: justify;
+      }
+      .chiffres h1 {
+        font-size: 40px; 
+      }
+      .chiffres h1 br{
+        display: none;
+      }
+      .chiffres h3, .chiffres span {
+        font-size: 30px !important;
+      }
+      .horse-homepage {
+        position: absolute;
+        top: -76px;
+        width: 300px !important;
+        right: -0px;
+        z-index: -1;
+        background-image: url("../images/background1.jpg");
+        background-position: 50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .motpresident .col-sm-12{
+          margin: 10px !important;
+      }
+      .infoPratique .titreInfo{
+        font-size: 25px !important;
+      }
+      .infoPratique .h1_features {
+        /* text-transform: uppercase; */
+        font-size: 15px !important;
+      }
+      .mediatheque .btn-6 {
+        background-color: #a77052;
+        color: #dec5a7;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        border: 1px solid #dec5a7;
+        position: absolute;
+        top: 120px;
+        left: 30%;
+        right: 30%;
+      }
+      .heading-25 {
+        font-size: 30px;
+        margin: 5% auto;
+      }
+      
+      .motpresident #imgpresident1{
+        display: block !important;
+      }
+      .motpresident #imgpresident2{
+        display: none !important;
+      }
+      .motpresident .imgpresident {
+        border: 1px solid #4e2d24;
+        box-shadow: -9px 9px 2px -2px rgba(0,0,0,0.33);
+        width: 300px;
+        height: auto;
+        padding: 2px;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

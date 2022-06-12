@@ -1,0 +1,510 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f1ee;
+}
+.header{
+    width: 100%;
+    height: auto;
+    background-color: #dfcdb7;
+}
+.header h3{
+    padding: 10px 5px;
+    font-size: 1em;
+    letter-spacing: 10px;
+    font-weight: bold;
+    color: #4e2d24;
+    margin: 0 !important;
+}
+.active{
+    background-color: #4e2d24;
+    color: #f5f1ee !important;
+}
+.navbar-brand img{
+    width: 190px;
+    height: 70px;
+}
+.nav-link:hover{
+    background-color: #4e2d24;
+    color: #f5f1ee !important;
+}
+.navbar-nav {
+    /* list-style: none; */
+    text-align: center;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #4e2d24;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .nav-item select{
+    border: none;
+    background-color: #f5f1ee;
+    color: #4e2d24;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  #carouselExampleControls{
+    height: 100vh;
+    margin-bottom: 50px;
+  }
+
+  .presentation{
+    position: relative;
+    /* background: #f5f1ee url(https://uploads-ssl.webflow.com/61826c4e5ae7ec497c758301/627c1a8cc79054ef98c008fa_SDC-Homepage-Horse-VF1.jpg) right top/contain no-repeat;  */
+    background-size: 60%;
+    margin-bottom: 50px;
+
+  }
+  .presentation .divtitre{
+    margin: 100px 30px;
+  }
+  .presentation .divtitre .titreInto {
+    color:#a76c4e;
+    font-size: 50px;
+  }
+  .presentation .divIntro{
+    margin: 0 30px;
+  }
+  .presentation .divIntro p{ 
+    margin-bottom: 20px;
+    color: #4e2d24;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: justify;
+    letter-spacing: 0;
+    text-indent: 0;
+  }
+  .chiffres{
+    margin-bottom: 50px;
+
+  }
+  .chiffres h1{
+    margin-top: 0;
+    margin-bottom: 26px;
+    font-family: 'DM Sans',sans-serif;
+    color: #a76c4e;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 400;
+    letter-spacing: -.03em;
+  }
+  .chiffres h3 , .chiffres span{
+    display: flex;
+    padding-right: 0;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: 'DM Sans',sans-serif;
+    color: #4e2d24;
+    font-size: 60px;
+    line-height: 46px;
+    font-weight: 700;
+    justify-content: center !important;
+  }
+  .chiffres .line{
+    margin: 10px 10px;
+    border-top: 2px solid #4e2d24;
+  }
+  .chiffres p{
+    max-width: 316px;
+    margin-left: 15px;
+    font-family: 'DM Sans',sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    text-align: left;
+    color: #4e2d24;
+  }
+  .motpresident{
+    background-color: #fff;
+    padding: 0;
+  }
+
+  .motpresident .heading-1 {
+    font-size: 20px;
+    color: #4e2d24;
+  }
+  .motpresident .heading-tamazight {
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: 'DM Sans',sans-serif;
+    color: #a1775f;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    -webkit-column-count: 1;
+    column-count: 1;
+  }
+  .motpresident .imgpresident {
+    border:  1px solid #4e2d24;
+    box-shadow: -9px 9px 2px -2px rgba(0,0,0,0.33);
+    width: 400px;
+    height: 500px;
+    padding: 2px;
+  }
+  .motpresident .imgpresident img{
+    width: 100%;
+    height: 100%;
+  }
+  .motpresident #imgpresident1{
+    display: none !important;
+  }
+  .paragraph .homepage {
+    padding-right: 25px;
+    color: #4e2d24;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0;
+    text-align: justify;
+  }
+  .horse-homepage {
+    position: absolute;
+    top: -100px;
+    width: 800px !important;
+    right: -0px;
+    z-index: -1;
+    background-image: url("../images/background1.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .text-block {
+    font-family: 'DM Sans',sans-serif;
+    color: #4e2d24;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .text-block:hover{
+  color: #4e2d24;
+  width: 200px;
+
+  }
+  /* Underline From Left */
+.hvr-underline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-left:before {
+  content: "";
+  /* width: 200px; */
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: -2px;
+  background: #4e2d24;
+  height: 4px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+  right: 0;
+  /* width: 200px; */
+
+}
+.lienhover{
+  text-decoration: none;
+  padding: 20px;
+}
+.hover{
+  color: #fff;
+  overflow: hidden;
+  /* From https://css.glass */
+  /* background: rgba(255, 255, 255, 0.50); */
+  background: rgba(250, 250, 250, 0.2);
+  /* background: rgba(167, 112, 81, 0.50); */
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+
+  
+}
+.hover:hover{
+  background-color: #a77051;
+  cursor: pointer;
+  border: 1px solid #a77051;
+  transition: .5s;
+  /* transform: translateY(-10%); */
+
+} 
+.arrow  {
+  background-color: #fff;
+  border-radius: 5px;
+  /* width: 50%; */
+  color: #000;
+  font-size: 20px;
+}
+.arrow h1{
+  color: #000;
+  font-size: 15px;
+}
+.infoPratique{
+  background-color: #a77051;
+  background-image: url("https://uploads-ssl.webflow.com/61826c4e5ae7ec497c758301/6185171d04d5d29215bd8730_SDC-Horse-Dot-3.jpg");
+  /* background-position: 100% 25%; */
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  /* background-size: 48%; */
+  background-position: right;
+}
+.infoPratique .h1_features{
+  text-transform: uppercase;
+  font-size: 1.3em;
+}
+.infoPratique .icon_wrap img{
+  filter: invert(100%) sepia(98%) saturate(0%) hue-rotate(335deg) brightness(103%) contrast(103%);
+}
+.mediatheque{
+  background-color: #dec5a7;
+  padding: 0;
+  position: relative;
+}
+.mediatheque .btn-6 {
+  background-color: #a77052;
+  color: #dec5a7;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 1px solid #dec5a7;
+ 
+}
+.mediatheque .btn-6:hover{
+  background-color: #dec5a7;
+  color: #a77052;
+  border: 1px solid #a77052;
+  transition: .5s;
+}
+.mediatheque1 {
+  padding: 10px;
+  background-image: url('../images/backmediatheque1.jpg');
+}
+.heading-25 {
+  position: relative;
+  z-index: 1;
+  margin-top: 10px;
+  font-family: 'DM Sans',sans-serif;
+  color: #976647;
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 400;
+  text-align: center;
+  margin: 10% auto;
+}
+.heading-48 {
+  position: absolute;
+  z-index: 3;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: 'DM Sans',sans-serif;
+  color: #fff;
+  font-size: 50px;
+  line-height: 45px;
+  text-align: center;
+  text-decoration: none;
+}
+.partenariat{
+  padding: 5% 0%;
+}
+.titrepartenariat{
+  font-family: 'DM Sans',sans-serif;
+  color: #4e2d24;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.partenariat .slide-left {
+	-webkit-animation: slide-left 50s linear infinite ;
+	        animation: slide-left 50s linear infinite ;
+}
+.partenariat .slide-left .col {
+  width: 120px;
+  height: 120px;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2022-6-9 13:33:30
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-left
+ * ----------------------------------------
+ */
+ @-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #4e2d24; /* Set a background color */
+  color: #f5f1ee; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 50%; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  border: 1px solid #4e2d24;
+  text-transform: rotate(90deg);
+}
+
+#myBtn:hover {
+  background-color: #f5f1ee; /* Add a dark-grey background on hover */
+  color: #4e2d24;
+}
+.footer-1 {
+  background-color: #583a28;
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.footer-1 p{
+  font-family: 'DM Sans',sans-serif;
+  font-size: 10px;
+  line-height: 10px;
+  margin: 0!important;
+}
+.footer-1 .img-Reseaux {
+  filter: invert(100%) sepia(98%) saturate(0%) hue-rotate(335deg) brightness(103%) contrast(103%);
+}
+.lieninscreption{
+  font-family: 'DM Sans',sans-serif;
+  color: #4e2d24;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.lienresult{
+  font-family: 'DM Sans',sans-serif;
+  color: #4e2d24;
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.lieninscreption:hover,.lienresult:hover{
+  color: #a77052;
+  transition: .5s;
+
+}
+.titrecomite{
+  font-size: 18px;
+  line-height: 38px;
+  /* color: #3b170e; */
+  color: #a77052;
+
+}
+.accordion-button:not(.collapsed) {
+  color: #4e2d24;
+  background-color: #e7f1ff;
+  box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+}
+.map {
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.87);
+}
+.coveralbume{
+  position: relative;
+  text-align: center;
+  border: none;
+  background: transparent;
+}
+.coveralbume img{
+  width: 100%;
+  height: 100%;
+  filter: grayscale(100%) blur(2px)  saturate(0%);
+
+}
+.coveralbume:hover > img{
+  filter: none;
+  transition: 1s;
+}
+.coveralbume .titrealbume{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.coveralbume .titrealbume p{
+  color: #fff;
+  font-size: 2.5em;
+}
+
+
+
+  

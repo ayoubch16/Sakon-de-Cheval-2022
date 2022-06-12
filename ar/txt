@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/js/bootstrap.min.js" integrity="sha512-Pv/SmxhkTB6tWGQWDa6gHgJpfBdIpyUy59QkbshS1948GRmj6WgZz18PaDMOqaEyKLRAvgil7sx/WACNGE4Txw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/css/bootstrap.min.css" integrity="sha512-NZ19NrT58XPK5sXqXnnvtf9T5kLXSzGQlVZL9taZWeTBtXoN3xIfTdxbkQh6QSoJfJgpojRqMfhyqBAAEeiXcA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/mobile.css">
+    <link rel="shortcut icon" href="../images/icone1.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mada:wght@300;400;500&display=swap" rel="stylesheet"> 
+    <title>معرض الفرس للجديدة</title>
+    <style>
+      *{
+        font-family: 'Mada', sans-serif;
+      }
+    </style>
+      
+</head>
+<body>
+    <!-- Top -->
+    <div class="header text-center">
+        <h3 style="letter-spacing: 0px;font-size: 1.5rem;">تـحـــــت الـــرعــــــايـــــة الســـــامـيــــة لصــاحـــــب الجـــــــلالــــــــة المـــــــــــلك محـــــــــمد الســــــادس</h3>
+    </div>
+    <!-- navbar -->
+    <nav style="background-color: #f5f1ee;box-shadow: 0px 35px 43px 0px rgba(0,0,0,0.14);" class="navbar sticky-top navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="../images/logo.webp"  class="d-inline-block align-top" alt="">
+            
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown" style="flex-grow: 0;">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#acceuil">الصفحة الرئيسية</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aprops">عن البطولة</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#info">معلومات مفيدة</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#media">وسائل إعلامية</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">تواصل معنا</a>
+              </li>
+              <li class="nav-item">
+                    <select class="nav-link" name="" id="">
+                        <option value="">AR</option>
+                        <option value="">EN</option>
+                        <option value="">FR</option>
+                    </select>
+                </li>
+
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!-- End navbar -->
+
+
+
